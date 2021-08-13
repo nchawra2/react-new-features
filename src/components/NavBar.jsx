@@ -1,20 +1,21 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <React.Fragment>
       <nav className="navbar navbar-light bg-light navbar-expand-md">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <NavLink className="navbar-brand" to="/">
             NEW FEATURES
-          </a>
+          </NavLink>
 
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a href="/table" className="nav-link">
+                <NavLink to="/table" className="nav-link">
                   Complex Table
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
