@@ -74,7 +74,7 @@ let Table = () => {
         <div className="row">
           <div className="col">
             <button onClick={getPosts} className="btn btn-danger btn-lg">
-              Click To Get Posts
+              Get Posts
             </button>
           </div>
           <div className="col-md-2 text-center ">
