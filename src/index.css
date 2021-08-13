@@ -3,3 +3,33 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.myLinks {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 30%;
+  left: 0;
+}
+
+.myLinks a {
+  text-decoration: none;
+  color: black;
+}
+
+.link-1,
+.link-2,
+.link-3,
+.link-4 {
+  transition: all 0.45s;
+  width: 100%;
+  background-color: black;
+  margin-right: 5px;
+}
+
+.link-1:hover,
+.link-2:hover,
+.link-3:hover,
+.link-4:hover {
+  width: 170%;
+}

@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import Links from "./MyLinks";
 import axios from "axios";
 
 let Table = () => {
@@ -151,8 +152,11 @@ let Table = () => {
             </div>
           </div>
         </div>
+
         <div className="mb-5"></div>
       </div>
+
+      <Links />
     </React.Fragment>
   );
 };
