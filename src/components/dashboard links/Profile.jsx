@@ -1,19 +1,19 @@
 import React from "react";
-import SideNav from "./dashboard links/SideNav";
+import SideNav from "../dashboard links/SideNav";
 
-const Home = () => {
+const Profile = () => {
   return (
     <React.Fragment>
       <div className="row">
         <div className="col-md-2">
-          <SideNav link1="true" />
+          <SideNav link2="true" />
         </div>
         <div className="col-md-10">
-          <h2>Home</h2>
+          <h2>profile component</h2>
         </div>
       </div>
     </React.Fragment>
   );
 };
 
-export default Home;
+export default Profile;

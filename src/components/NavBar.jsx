@@ -17,6 +17,11 @@ const NavBar = () => {
                   Complex Table
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink to="/home" className="nav-link">
+                  Home Dashboard
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>

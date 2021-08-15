@@ -33,3 +33,22 @@ body {
 .link-4:hover {
   width: 170%;
 }
+
+.sidenav {
+  background-color: gray;
+  height: 90vh;
+}
+
+.sidenav .nav-item {
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.sidenav .nav-link {
+  color: white;
+  padding: 20px 20px;
+}
+
+.active-sidenav {
+  background-color: black;
+}
