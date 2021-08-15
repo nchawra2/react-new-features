@@ -9,7 +9,7 @@ const Profile = () => {
           <SideNav link2="true" />
         </div>
         <div className="col-md-10">
-          <h2>profile component</h2>
+          <h2>Profile component</h2>
         </div>
       </div>
     </React.Fragment>
