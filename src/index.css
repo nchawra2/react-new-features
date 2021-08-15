@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .myLinks {
@@ -51,4 +52,14 @@ body {
 
 .active-sidenav {
   background-color: black;
+}
+
+.scrollTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.hidden {
+  display: none;
 }
