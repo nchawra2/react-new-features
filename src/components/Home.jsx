@@ -5,10 +5,10 @@ const Home = () => {
   return (
     <React.Fragment>
       <div className="row">
-        <div className="col-md-2">
+        <div className="col-md-2 col-2">
           <SideNav link1="true" />
         </div>
-        <div className="col-md-10">
+        <div className="col-md-10 col-10">
           <h2>Home</h2>
         </div>
       </div>
