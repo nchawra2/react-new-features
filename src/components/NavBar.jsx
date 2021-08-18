@@ -4,7 +4,10 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <React.Fragment>
-      <nav className="navbar navbar-light bg-light navbar-expand-md" id="BackToTop">
+      <nav
+        className="navbar navbar-light bg-light navbar-expand-md"
+        id="BackToTop"
+      >
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
             NEW FEATURES
@@ -25,6 +28,11 @@ const NavBar = () => {
               <li className="nav-item">
                 <NavLink to="/html" className="nav-link">
                   HTML THINGS
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/sorting" className="nav-link">
+                  Sorting Table
                 </NavLink>
               </li>
             </ul>
