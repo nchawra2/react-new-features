@@ -97,7 +97,7 @@ export default function SortTable() {
     <div>
       <div className="row mt-3">
         <div className="col-md-8 m-auto">
-          <table className="table table-striped table-hover text-center">
+          <table className="table table-bordered table-striped text-center">
             <thead>
               <tr className="bg-dark text-white text-uppercase text-center">
                 <th>id</th>

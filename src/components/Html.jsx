@@ -20,7 +20,6 @@ export default function Html() {
     } else {
       setInvalid("");
     }
-    alert("PHOTO UPLOADED");
   };
 
   return (
